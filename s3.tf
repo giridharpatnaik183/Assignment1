@@ -1,8 +1,8 @@
 provider "aws" {
-access_key= "AKIAVPA7N6UH3X5PDDNT"
-secret_key= "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"
+access_key= "AKIAWS2ZE5YLEXO3PRNP"
+secret_key= "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"
 region= "eu-north-1"
 }
 resource "aws_s3_bucket" "third" {
-bucket = "pragati.prod.ec2.bucket"
+bucket = "sai.prod.ec2.bucket"
 }
