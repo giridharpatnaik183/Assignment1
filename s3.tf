@@ -4,5 +4,5 @@ secret_key= "ly54AFgoyEMOkvD8ZbnzPfAhquxd4LDINj4pHsJe"
 region= "us-east-1"
 }
 resource "aws_s3_bucket" "first" {
-bucket = "sai.prod.ec2.bucket"
+bucket = "sai.prod.s3.bucket"
 }
